@@ -1,0 +1,76 @@
+html, body,p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.mainContainer{
+    width: 375px;
+    margin: auto;
+}
+
+.titleContainer{
+   border-bottom: 1px solid gray;
+    display: flex;
+    width: 375px;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+.userImage{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+.logoImage{
+    width: 127px;
+    height: 33px;
+}
+
+.postImage{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.bodyContainer{
+    
+    width: 375px;
+    margin: auto;
+    position: relative;
+    
+}
+.name{
+    position: absolute;
+    top:0px;
+    left: 40px;
+    font-size: 12px;
+    
+}
+
+.address{
+    position: absolute;
+    top:15px;
+    left: 40px;
+    font-size: 12px;
+}
+
+#img-vg{
+    width: 375px;
+    height: 375px;
+    margin-bottom: 5px;
+}
+
+.iconContainer{
+    
+    height: 20px;
+    display: flex;
+    gap: 5px;
+    margin-top: 5px
+}
+.likesCount{
+    padding: 10px 0;
+}
+
+
